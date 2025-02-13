@@ -21,7 +21,7 @@
 
 
 #import <Foundation/Foundation.h>
-#import "MQTTSession.h"
+#import <ConnectInAppThirdParty/MQTTSession.h>
 
 @interface MQTTSession(Create)
 

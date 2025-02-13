@@ -18,7 +18,7 @@
 // 
 
 #import <Foundation/Foundation.h>
-#import "MQTTMessage.h"
+#import <ConnectInAppThirdParty/MQTTMessage.h>
 
 typedef NS_ENUM(unsigned int, MQTTDecoderEvent) {
     MQTTDecoderEventProtocolError,

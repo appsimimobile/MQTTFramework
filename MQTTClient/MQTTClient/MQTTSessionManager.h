@@ -10,9 +10,9 @@
 #if TARGET_OS_IPHONE == 1
 #import <UIKit/UIKit.h>
 #endif
-#import "MQTTSession.h"
-#import "MQTTSessionLegacy.h"
-#import "MQTTSSLSecurityPolicy.h"
+#import <ConnectInAppThirdParty/MQTTSession.h>
+#import <ConnectInAppThirdParty/MQTTSessionLegacy.h>
+#import <ConnectInAppThirdParty/MQTTSSLSecurityPolicy.h>
 
 @class MQTTSessionManager;
 

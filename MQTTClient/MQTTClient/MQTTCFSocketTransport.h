@@ -6,9 +6,9 @@
 //  Copyright © 2015-2017 Christoph Krey. All rights reserved.
 //
 
-#import "MQTTTransport.h"
-#import "MQTTCFSocketDecoder.h"
-#import "MQTTCFSocketEncoder.h"
+#import <ConnectInAppThirdParty/MQTTTransport.h>
+#import <ConnectInAppThirdParty/MQTTCFSocketDecoder.h>
+#import <ConnectInAppThirdParty/MQTTCFSocketEncoder.h>
 
 /** MQTTCFSocketTransport
  * implements an MQTTTransport on top of CFNetwork

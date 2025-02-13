@@ -26,12 +26,13 @@
  @see http://mqtt.org
  */
 
-#import "MQTTSession.h"
-#import "MQTTSessionLegacy.h"
-#import "MQTTCFSocketTransport.h"
-#import "MQTTSSLSecurityPolicyTransport.h"
 
-#import "MQTTLog.h"
+#import <ConnectInAppThirdParty/MQTTSession.h>
+#import <ConnectInAppThirdParty/MQTTSessionLegacy.h>
+#import <ConnectInAppThirdParty/MQTTCFSocketTransport.h>
+#import <ConnectInAppThirdParty/MQTTSSLSecurityPolicyTransport.h>
+
+#import <ConnectInAppThirdParty/MQTTLog.h>
 
 @interface MQTTSession()
 @property (strong, nonatomic) MQTTSSLSecurityPolicy *securityPolicy;

@@ -7,7 +7,8 @@
 //
 
 #import "MQTTWebsocketTransport.h"
-#import <SocketRocket/SRWebSocket.h>
+#import "SRWebSocket.h"
+#import "NSURLRequest+SRWebSocket.h"
 #import "../MQTTLog.h"
 
 @interface MQTTWebsocketTransport() <SRWebSocketDelegate>

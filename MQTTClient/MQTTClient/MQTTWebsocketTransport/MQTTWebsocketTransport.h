@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MQTTTransport.h"
+#import <ConnectInAppThirdParty/MQTTTransport.h>
 
 /** MQTTCFSocketTransport
  * implements an MQTTTransport on top of Websockets (SocketRocket)

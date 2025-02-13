@@ -21,9 +21,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import "MQTTMessage.h"
-#import "MQTTPersistence.h"
-#import "MQTTTransport.h"
+#import <ConnectInAppThirdParty/MQTTMessage.h>
+#import <ConnectInAppThirdParty/MQTTPersistence.h>
+#import <ConnectInAppThirdParty/MQTTTransport.h>
 
 @class MQTTSession;
 @class MQTTSSLSecurityPolicy;

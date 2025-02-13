@@ -6,11 +6,13 @@
 //  Copyright © 2015-2017 Christoph Krey. All rights reserved.
 //
 
-#import "MQTTSSLSecurityPolicyTransport.h"
-#import "MQTTSSLSecurityPolicyEncoder.h"
-#import "MQTTSSLSecurityPolicyDecoder.h"
 
-#import "MQTTLog.h"
+#import <ConnectInAppThirdParty/ConnectInAppThirdParty.h>
+#import <ConnectInAppThirdParty/MQTTSSLSecurityPolicyTransport.h>
+#import <ConnectInAppThirdParty/MQTTSSLSecurityPolicyEncoder.h>
+#import <ConnectInAppThirdParty/MQTTSSLSecurityPolicyDecoder.h>
+//
+//#import "MQTTLog.h"
 
 @interface MQTTSSLSecurityPolicyTransport()
 @property (strong, nonatomic) MQTTSSLSecurityPolicyEncoder *encoder;

@@ -15,16 +15,17 @@
 
 #import <Foundation/Foundation.h>
 
-#import <MQTTClient/MQTTSession.h>
-#import <MQTTClient/MQTTDecoder.h>
-#import <MQTTClient/MQTTSessionLegacy.h>
-#import <MQTTClient/MQTTProperties.h>
-#import <MQTTClient/MQTTMessage.h>
-#import <MQTTClient/MQTTTransport.h>
-#import <MQTTClient/MQTTCFSocketTransport.h>
-#import <MQTTClient/MQTTCoreDataPersistence.h>
-#import <MQTTClient/MQTTSSLSecurityPolicyTransport.h>
-#import <MQTTClient/MQTTLog.h>
+#import <ConnectInAppThirdParty/ConnectInAppThirdParty.h>
+#import <ConnectInAppThirdParty/MQTTSession.h>
+#import <ConnectInAppThirdParty/MQTTDecoder.h>
+#import <ConnectInAppThirdParty/MQTTSessionLegacy.h>
+#import <ConnectInAppThirdParty/MQTTProperties.h>
+#import <ConnectInAppThirdParty/MQTTMessage.h>
+#import <ConnectInAppThirdParty/MQTTTransport.h>
+#import <ConnectInAppThirdParty/MQTTCFSocketTransport.h>
+#import <ConnectInAppThirdParty/MQTTCoreDataPersistence.h>
+#import <ConnectInAppThirdParty/MQTTSSLSecurityPolicyTransport.h>
+#import <ConnectInAppThirdParty/MQTTLog.h>
 
 #if __has_include(<MQTTClient/MQTTSessionManager.h>)
 #import <MQTTClient/MQTTSessionManager.h>

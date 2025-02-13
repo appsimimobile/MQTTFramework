@@ -6,8 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MQTTSSLSecurityPolicy.h"
-#import "MQTTCFSocketEncoder.h"
+#import <ConnectInAppThirdParty/MQTTSSLSecurityPolicy.h>
+#import <ConnectInAppThirdParty/MQTTCFSocketEncoder.h>
 
 @interface MQTTSSLSecurityPolicyEncoder : MQTTCFSocketEncoder
 
